@@ -6,7 +6,7 @@ function Clock() {
   return (
     <div id='Clock'>
       <p>{ time.toLocaleTimeString() }</p>
-      <button type="button" onClick={e => setTime(new Date())}>클릭</button>
+      <button type="button" onClick={() => setTime(new Date())}>클릭</button>
     </div>
   );
 }
